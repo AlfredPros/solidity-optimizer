@@ -18,9 +18,10 @@ The optimizer works in four steps:
 
 `DECREMENT_OPERATOR`: enable converting post-fix decrement into pre-fix increment where applicable.
 
-`BOOLEAN_IF_CHECK`: enable deleting inefficient boolean `if` checks.
+`BOOLEAN_IF_CHECK`: enable deleting explicit boolean checks.
 
 `INDEX_EVENT_VARIABLE`: enable indexing event variables except `bytes` or `string` data types.
+
 
 ### Risky Optimization Options (Default: False)
 `PRECOMPUTE_VARIABLE_VALUE`: enable precomputing variable value that references other variable in a group/island.
@@ -28,6 +29,7 @@ The optimizer works in four steps:
 `PRECOMPUTE_VALUE`: enable precomputing any arithmatic operations where applicable.
 
 `INDEX_EVENT_STRING_BYTES`: enable indexing `bytes` and `string` data types.
+
 
 ### Miscellaneous Options
 `FILES_DIR`: directory consisting user's Solidity source code(s). Default is set to `sol`.
