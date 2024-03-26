@@ -26,7 +26,7 @@ The optimizer works in four steps:
 ### Risky Optimization Options (Default: False)
 `PRECOMPUTE_VARIABLE_VALUE`: enable precomputing variable value that references other variable in a group/island.
 
-`PRECOMPUTE_VALUE`: enable precomputing any arithmatic operations where applicable.
+`PRECOMPUTE_VALUE`: enable precomputing any arithmetic operations where applicable.
 
 `INDEX_EVENT_STRING_BYTES`: enable indexing `bytes` and `string` data types.
 
