@@ -1,5 +1,5 @@
 # Static Solidity Source Code Optimizer
-This project is created to optimize inefficient gas patterns in Solidity source code. The main source code of this project is written in Python on Python Notebook.
+This project is created to optimize inefficient gas patterns in Solidity source code. The main source code of this project is written in Python on Python Notebook. This repository includes dataset consisting of 30 smart contracts under `eval` folder for evaluation.
 
 ## Usage
 The optimizer works in four steps:
